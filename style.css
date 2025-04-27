@@ -1,0 +1,580 @@
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+    background-image: url(./images/15.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    
+   }
+  .first-section {
+      background-image: url(./images/15.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      box-shadow: 0 0 50px black;
+      background-position: center;
+      border-radius: 20px;
+      
+      
+  }
+  .title {
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; 
+      margin: 0%
+      }
+  .title h1 {
+      margin: 0%;
+      padding: 0%;
+      font-size: 80px;
+      color: white;
+      font-family: "Cinzel", serif;
+      font-optical-sizing: auto;
+      font-weight: weight;
+      font-style: normal;
+     
+  }
+  
+ .title p {
+      font-size: 40px;
+      color: gray;
+      margin: 0%;
+      padding: 0%;
+  }
+
+  .second-section {
+      background-image: url(./images/15.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      box-shadow: 0 0 50px black;
+      background-position: center;  
+      padding: 50px 20px;
+      border-radius: 20px;
+  }
+
+     .container2 {
+      display: grid;
+      grid-template-columns: 600px auto;
+     
+      ;
+        
+     }
+     .items {
+      display: flex;
+      gap: 1px;
+      flex-direction: column;
+      margin-top: 80px;
+     }
+
+  .intro {
+      font-size: 40px;
+      color: white;
+      font-family: "Cinzel", serif;
+      font-optical-sizing: auto;
+      font-weight: weight;
+      font-style: normal;
+  }
+  .intropara {
+      font-size: 30px;
+      color: gray;
+      margin: 0%;
+      padding: 0%;
+  }
+
+  .firstbutton {
+      margin-top: 50px;
+      width: 140px;
+  }
+
+  .custom-button {
+     display: inline-block;
+     padding: 12px 24px;
+     background-color: black;
+     color: white;
+     text-decoration: none;
+     border-radius: 30px;
+     font-weight: 600;
+     font-size: 16px;
+     transition: background-color 0.3s ease, transform 0.2s ease;
+     box-shadow: 0 0 15px black;
+     
+  }
+
+  .custom-button:hover {
+     background-color: gray;
+     transform: translateY(-2px);
+ }
+
+ .third-section {
+  background-image: url(./images/15.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 4rem 2rem;
+  border-radius: 20px;
+}
+  .third-section h1 {
+    font-size: 100px;
+    color: white;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  .third-section p {
+    font-size: 22px;
+    color: gray;
+    margin: 0%;
+    padding: 0%;
+    margin-bottom: 5%;
+  }
+
+  .project h2 {
+    font-size: 40px;
+    color: white;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    
+  }
+
+  .project p {
+    font-size: 20px;
+    color: gray;
+    margin: 0%;
+    padding: 0%;
+  }
+  
+
+  .fourth-section {
+    background-image: url(./images/15.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 50px black;
+    background-position: center;
+    padding: 4rem 2rem;
+    border-radius: 20px;
+
+  
+    
+    
+  }
+  .fourth-section img {
+    height: 80%;
+    
+  }
+  .fourth-section h2 {
+    font-size: 40px;
+    color: white;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+   
+  }
+  .fourth-section p {
+    font-size: 20px;
+    color: gray;
+    margin: 0%;
+    padding: 0%;
+   
+  }
+ 
+  
+
+  .fifth-section {
+    background-image: url(./images/15.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 50px black;
+    background-position: center;
+    padding: 4rem 2rem;
+    border-radius: 20px;
+    
+  }
+  .fifth-section img {
+    height: 50%;
+    
+    
+  }
+  .fifth-section h2 {
+    font-size: 40px;
+    color: white;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  .fifth-section p {
+    font-size: 20px;
+    color: gray;
+    margin: 0%;
+    padding: 0%;
+  }
+ 
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+  body {
+    overflow-x: hidden;
+ }
+
+  .one {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .one2 {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+  .secondbutton {
+    margin-top: 30px;
+    width: 140px;
+  }
+
+  .two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .two2 {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+  .thirdbutton {
+    margin-top: 30px;
+    width: 140px;
+  }
+
+  .three {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .three3 {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+  .fourthbutton {
+    margin-top: 30px;
+    width: 140px;
+  }
+
+  .four {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .four4 {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+  .fifthbutton {
+    margin-top: 30px;
+    width: 140px;
+  }
+
+  .container4 {
+    display: grid;
+    grid-template-columns: 600px auto;
+  }
+
+  .about1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+  .sixthbutton {
+    margin-top: 50px;
+    width: 145px;
+  }
+  .sushil2 {
+    margin-left: 50px;
+  }
+
+  .container5 {
+    display: grid;
+    grid-template-columns: 600px auto;
+  }
+  .contact1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+  .contact-buttons {
+    display: flex;
+    gap: 20px;
+    
+  }
+  .seventhbutton {
+    margin-top: 50px;
+    width: 120px;
+  }
+  .eighthbutton {
+    margin-top: 50px;
+    width: 58px;
+  }
+  .ninthbutton {
+    margin-top: 50px;
+    width: 95px;
+  }
+
+  .projectshead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+
+  
+
+@media (max-width: 1024px) {
+  .container2, .container4, .container5 {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .container2 img,
+  .container4 img,
+  .container5 img {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .one, .two, .three, .four {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .project img {
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .title h1 {
+    font-size: 60px;
+  }
+
+  .title p {
+    font-size: 30px;
+  }
+
+  .third-section h1 {
+    font-size: 60px;
+  }
+
+  .intro {
+    font-size: 32px;
+  }
+
+  .intropara {
+    font-size: 24px;
+  }
+
+  .custom-button {
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-left: 40%;
+  }
+
+  .contact-buttons {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-right: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  .container2, .container4, .container5 {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .container2 img,
+  .container4 img,
+  .container5 img {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .one, .two, .three, .four {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .project img {
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .title {
+    height: 70vh;
+    padding-top: 50px;
+  }
+
+  .title h1 {
+    font-size: 40px;
+  }
+
+  .title p {
+    font-size: 24px;
+  }
+
+  .third-section h1 {
+    font-size: 40px;
+  }
+
+  .intro {
+    font-size: 26px;
+  }
+
+  .intropara {
+    font-size: 20px;
+  }
+ 
+
+  .project h2 {
+    font-size: 28px;
+  }
+
+  .project p {
+    font-size: 18px;
+  }
+
+  .fourth-section h2,
+  .fifth-section h2 {
+    font-size: 30px;
+  }
+
+  .fourth-section p,
+  .fifth-section p {
+    font-size: 18px;
+  }
+
+  .custom-button {
+    padding: 10px 20px;
+    font-size: 14px;
+    margin-left: 40%;
+  }
+
+  .contact-buttons {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-right: 25%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container2, .container4, .container5 {
+    grid-template-columns: 600px auto;
+  }
+
+  .one, .two, .three, .four {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .project img {
+    height: 50vh;
+    width: 70vh;
+  }
+}
+
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+
+  .container2, .container4, .container5 {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding: 20px;
+  }
+
+  .sushil img, .sushil2, .fifth-section img {
+    width: 100%;
+    height: auto;
+    margin-left: 20px;
+  }
+
+  .title h1 {
+    font-size: 60px;
+  }
+
+  .title p {
+    font-size: 30px;
+  }
+
+  .intro {
+    font-size: 35px;
+  }
+
+  .intropara {
+    font-size: 24px;
+  }
+
+  .third-section h1 {
+    font-size: 80px;
+    text-align: center;
+  }
+
+  .third-section p {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .project {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  .project img {
+    width: 100%;
+    height: auto;
+  }
+
+  .project h2 {
+    font-size: 32px;
+  }
+
+  .project p {
+    font-size: 18px;
+  }
+
+  .about1 h2,
+  .contact1 h2 {
+    font-size: 32px;
+  }
+
+  .about1 p,
+  .contact1 p {
+    font-size: 18px;
+  }
+
+  .custom-button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .contact-buttons {
+    flex-wrap: wrap;
+  }
+}
